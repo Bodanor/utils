@@ -29,7 +29,7 @@ int strcat(char* str, const char* str1)
 	/* Doing the same thing as strcpy but this time starting at the end of str*/
 	while ((*str++ = *str1++) != '\0')
 		;
-
+	return 0;
 }
 
 int atoi(const char* str)

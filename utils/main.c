@@ -4,7 +4,8 @@
 int main()
 {
 	char* a = "-92";
-	int b = atoi(a);
-	printf("%d", b);
+	char* b;
+	strcpy(a, b);
+	printf("%s", b);
 
 }
